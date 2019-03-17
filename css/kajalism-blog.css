@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+.bg-light-blue-gradient{
+   background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.intro{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+    color: white;
+	background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.overlay{
+	position: absolute;
+	bottom: 0px;
+	opacity: 0.8;
+	padding: 3px;
+	width: 100%;
+}
+.overlay:hover{
+	opacity: 0.5;
+	 transition-duration: 1s;
+	 color:gray;
+}
+.overlay h5{
+	margin-bottom: 0;
+}
+.blog-feed .card .card-header h3,p{
+	margin-bottom: 0;
+}
+.blog-feed .card-body p{
+	margin-bottom: 1rem;
+}
+.popular-posts a{
+		text-decoration: none !important;
+}
+.footer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: #363636;
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.footer-wrapper{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.footer-wrapper p{
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 768px) {
+	.blog-intro .card{
+		margin-bottom: 1rem;
+	}
+    .footer .col-md-4{
+            margin-bottom: 1rem;
+        }
+}
