@@ -1,6 +1,8 @@
 # kajalism-blog
 Kajalism Blog Template is a fully responsive template for Bootstrap lover's,  which include navbar, carousel, footer, sidebar, cards, blog-post, gallery etc.  - Created by Bootcatch team.
 
+[![kajalism blog](http://preview.bootcatch.com/kajalism-blog/img/kajalism.png)](http://preview.bootcatch.com/kajalism-blog/)
+
 ## About
 
 Bootcatch is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Bootcatch are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
